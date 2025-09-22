@@ -1,0 +1,22 @@
+body{
+height: 100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+form{
+
+    width: 400;
+    margin: 400; 
+    border:3px solid black;
+    align-items: center;
+}
+
+
+label{
+
+    font-weight:bold;
+    font-size: 1rem;
+}
