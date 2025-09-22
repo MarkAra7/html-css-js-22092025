@@ -7,26 +7,27 @@
 
   <body>
     <div>
-      <form action="/submit.php">
+      <form method="post" action="/submit.php">
         <label for="fname">First name:</label><br />
-        <input type="text" id="fname" name="fname" /><br />
+        <input type="text" id="name" name="name" /><br />
 
         <label for="email">Email:</label><br />
-        <input type="text" id="email" name="email" />
+        <input type="text" id="email" name="email" /><br />
 
         <label for="lname">Last name:</label><br />
-        <input type="text" id="lname" name="lname" />
+        <input type="text" id="name" name="name" /><br />
 
         <label for="atsauksme">Atsauksme:</label><br />
-        <input type="textarea" id="atsauksme" name="atsauksme" />
+        <input type="textarea" id="atsauksme" name="atsauksme" /><br />
 
-        <input type="radio" id="leveal1" name="leveal1" value="1" />
+        <input type="radio" id="leveal1" name="leveal1" value="low" />
         <label for="leveal1"> Zems limenis</label><br />
-        <input type="radio" id="leveal2" name="leveal2" value="2" />
-        <label for="leveal2"> Videjs limenis</label
-        ><br />
-        <input type="radio" id="leveal3" name="leveal3" value="3" />
-        <label for="leveal3"> Labs limenis</label>
+
+        <input type="radio" id="leveal2" name="leveal2" value="medium" />
+        <label for="leveal2"> Videjs limenis</label><br />
+        
+        <input type="radio" id="leveal3" name="leveal3" value="high" />
+        <label for="leveal3"> Labs limenis</label><br />
 
         <input type="submit" value="Submit" />
       </form>
